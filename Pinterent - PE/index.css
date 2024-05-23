@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Jockey One;
+    src: url(JockeyOne-Regular.ttf);
+}
+
+ 
+ .cabecalho {
+     background-color: rgb(179, 19, 18);
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 40px;
+ }
+ 
+ .tituloh1 {
+    font-family: Jockey One;
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+    color: white;
+ }
+
+ .imgcabpin {
+    width: 190px;
+ }
+
+.finalidade {
+    background-image: linear-gradient(#EFBBBB, #FFFFFF);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.finalidadeimg {
+    width: 450px;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+
+.informativa {
+    padding-right: 70px;
+    text-align: justify;
+}
+
+.inspiracoes {
+    background-color: rgb(43, 42, 76);
+    padding-top: 7px;
+    padding-bottom: 100px;
+}
+
+.inspiracoes_titulo {
+    color: white;
+    margin-left: 450px;
+    margin-top: 40px;
+ }
+
+p {
+    font-family: Jockey One;
+    font-size: 70px;
+}
+
+.fts {
+    margin: 95px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgfts {
+    margin-bottom: 100px;
+}
+
+.rodapé {
+    background-color: rgb(179, 19, 18);
+    height: 200px;
+}
+
+.links {
+    font-family: Jockey One;
+    font-weight: 100px;
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a { 
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #EFBBBB;
+    text-decoration: underline;
+}
